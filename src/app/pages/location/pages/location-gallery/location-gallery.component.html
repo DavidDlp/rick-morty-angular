@@ -1,0 +1,7 @@
+<div>
+    <div>
+        <div *ngFor ="let item of list">
+            <a routerLink ="/Location/{{item.id}}"><h3>{{item.name | uppercase}}</h3></a>
+        </div>
+    </div>
+</div>
