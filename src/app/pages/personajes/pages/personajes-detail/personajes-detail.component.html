@@ -1,4 +1,18 @@
-<div>
-    <h3>{{charactersDetail.name}}</h3>
-    <img src="{{charactersDetail.image}}" alt="{{charactersDetail.name}}">
+<div class=" m-3 text-center text-md-start">
+    <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img class="img-fluid rounded-start" src="{{charactersDetail.image}}" alt="{{charactersDetail.name}}">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h3 class="card-title">{{charactersDetail.name}}</h3>
+                <p class="card-text">{{charactersDetail.gender}}</p>
+                <p class="card-text">{{charactersDetail.species}}</p>
+                <p class="card-text">{{charactersDetail.status}}</p>
+                <p class="card-text">{{charactersDetail.species}}</p>
+            </div>
+        </div>
+    </div>
+    </div>
 </div>

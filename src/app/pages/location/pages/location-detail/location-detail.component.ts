@@ -11,16 +11,16 @@ export class LocationDetailComponent implements OnInit {
 
    public locationDetail: any = {}
 
-  constructor( private route: ActivatedRoute, private servLocation: ServLocationService) { }
+  // constructor( private route: ActivatedRoute, private servLocation: ServLocationService) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe((param) =>{
-      let idLocation = param.get('id')
-      console.log(idLocation)
+  //   this.route.paramMap.subscribe((param) =>{
+  //     let idLocation = param.get('id')
+  //     console.log(idLocation)
 
-    this.servLocation.getLocationById(idLocation).subscribe ((location) => { this.locationDetail = location
-    console.log(this.locationDetail)    
-    })
-  })
+  //   this.servLocation.getLocationById(idLocation).subscribe ((location) => { this.locationDetail = location
+  //   console.log(this.locationDetail)    
+  //   })
+  // })
   }
 }
