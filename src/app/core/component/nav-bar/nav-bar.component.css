@@ -1,0 +1,10 @@
+.n-item {
+  font-family: rickandmorty;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.n-item a:hover {
+  font-size: x-large;
+}
+/*# sourceMappingURL=nav-bar.component.css.map */

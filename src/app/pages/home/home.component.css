@@ -1,0 +1,17 @@
+.container-home {
+  border: 2px solid black;
+  border-radius: 20px;
+  color: aqua;
+  margin: 20px;
+}
+
+.bg-container {
+  border: 2px solid black;
+  padding: 20px;
+  background-image: url(../../../assets/image/Z6WN33YVLRCTPCATP7EAJ2ODLE.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: x-large;
+}
+/*# sourceMappingURL=home.component.css.map */

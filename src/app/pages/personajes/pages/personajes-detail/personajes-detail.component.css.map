@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "personajes-detail.component.scss"
+    ],
+    "names": [],
+    "file": "personajes-detail.component.css"
+}
